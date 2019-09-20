@@ -1729,9 +1729,9 @@
             <stringProp name="99617003">https</stringProp>
           </collectionProp>
           <collectionProp name="UserParameters.thread_values">
-            <collectionProp name="2021249099">
-              <stringProp name="2081545214">2019-07-10</stringProp>
-              <stringProp name="2081574983">2019-08-09</stringProp>
+            <collectionProp name="-1496286495">
+              <stringProp name="2081545223">2019-07-19</stringProp>
+              <stringProp name="2081575014">2019-08-19</stringProp>
               <stringProp name="190626776">etms.e-yuntong.com</stringProp>
               <stringProp name="99617003">https</stringProp>
             </collectionProp>
@@ -1744,7 +1744,7 @@
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">Authorization</stringProp>
-              <stringProp name="Header.value">Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsaWNlbnNlIjoibWFkZSBieSBldG1zIiwidXNlcl9uYW1lIjoiMTU3MzI2NDQ0NDQiLCJzY29wZSI6WyJzZXJ2ZXIiXSwiZXhwIjoxNTY1MzYyMDY3LCJ1c2VySWQiOjkxNywiYXV0aG9yaXRpZXMiOlsiMV9GT1JXQVJERVJfQURNSU4iLCJST0xFX1VTRVIiXSwianRpIjoiZmJkYWE2OGUtYjE5MS00MDA1LWI5YjItYzAyYmZjNjc2YzFhIiwiY2xpZW50X2lkIjoiZXRtcyJ9.O6wJRscTe-kPcS1blIQePflc64fCfceqAFw2oiQ5E1o</stringProp>
+              <stringProp name="Header.value">Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiIxNTczMjY0NDQ0NCIsInNjb3BlIjpbInNlcnZlciJdLCJleHAiOjE1NjYyMjIxODYsImRlcHRfaWQiOm51bGwsInVzZXJJZCI6OTE3LCJhdXRob3JpdGllcyI6WyIxX0ZPUldBUkRFUl9BRE1JTiJdLCJqdGkiOiI4ZDBkZWFjZi0wM2UyLTRiZTMtYjA3Ny0zMzM4ZGRkMzhmMjkiLCJjbGllbnRfaWQiOiJldG1zIiwidXNlcm5hbWUiOiIxNTczMjY0NDQ0NCJ9.qik8PhlWtk-Kt-qGOH29-Sd5BFQ1DleIqT-W9Dp2LU0</stringProp>
             </elementProp>
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">Content-Type</stringProp>
@@ -3370,7 +3370,7 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="false">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="16581613">&quot;relatedNo&quot;:&quot;${orderNo2}&quot;,</stringProp>
             </collectionProp>
@@ -4735,7 +4735,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/admin/route</stringProp>
+          <stringProp name="HTTPSampler.path">/order/etmsroute</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4765,7 +4765,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/admin/route/page?page=1&amp;limit=30</stringProp>
+          <stringProp name="HTTPSampler.path">/order/etmsroute/page?page=1&amp;limit=30</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4808,7 +4808,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/admin/route</stringProp>
+          <stringProp name="HTTPSampler.path">/order/etmsroute</stringProp>
           <stringProp name="HTTPSampler.method">PUT</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4868,7 +4868,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/admin/route/${routeId}</stringProp>
+          <stringProp name="HTTPSampler.path">/order/etmsroute/326/${routeId}</stringProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
